@@ -1,0 +1,34 @@
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
+  margin-top: 15px;
+  gap: 7px;
+  color: #959494;
+  font-size: 8px;
+  .info_colors {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    &_block {
+      width: 15px;
+      height: 15px;
+    }
+    &_block::nth-child(1) {
+      background-color: rgba(237, 237, 237, 1);
+    }
+    &_block::nth-child(2) {
+      background-color: rgba(172, 213, 242, 1);
+    }
+    &_block::nth-child(3) {
+      background-color: rgba(127, 168, 201, 1);
+    }
+    &_block::nth-child(4) {
+      background-color: rgba(82, 123, 160, 1);
+    }
+    &_block::nth-child(5) {
+      background-color: rgba(37, 78, 119, 1);
+    }
+  }
+}

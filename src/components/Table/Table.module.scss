@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contribution {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(237, 237, 237, 1);
+  cursor: pointer;
+  margin: 1px;
+  position: relative;
+  &:hover {
+    border: 1px solid rgba(0, 0, 0, 0.50);;
+  }
+}
+
+.col {
+  width: auto !important;
+  padding: 0 !important;
+  flex: 0 !important;
+  max-width: auto !important;
+}
